@@ -1,8 +1,11 @@
+#MAIN SCRIPT PULLED FROM: 
+#https://gist.github.com/bradp/bea76b16d3325f5c47d4
+
 # setting up new computer
 #
 # 1. install istat and enter license key
 #     1. https://bjango.com/mac/istatmenus/
-#     2. registration license number: GAXAE-F9ASE-S7ZAS-KSZUG-NAF7L-2ERJ8-MQ5EU-U5D7Q-A9KQB-FCJFK-HHTLX-3GJVV-KWSPY-G7WFS-TZ6YH-3S
+#     2. registration license number:
 # 2. install spectacle
 #     1. https://www.spectacleapp.com
 # 3. install resolutionator
@@ -11,7 +14,6 @@
 #     1. http://www.derlien.com
 # 5. install super duper
 #     1. https://www.shirt-pocket.com/SuperDuper/
-#     2. SPSD001001-HMP8-6H1B-P65W-3JBJ-8356
 # 6. download item
 #     1. https://iterm2.com/downloads.html
 # 7. download app cleanrer
@@ -22,35 +24,6 @@
 
 #EDIT APPLICATIONS HERE:
 #COMMENT OUT WHAT U DONT WANT
-# apps=(
-#   alfred
-#   bartender
-#   bettertouchtool
-#   cleanmymac
-#   cloud
-#   colloquy
-#   cornerstone
-#   diffmerge
-#   dropbox
-#   filezilla
-#   firefox
-#   google-chrome
-#   sourcetree
-#   steam
-#   spotify
-#   vagrant
-#   iterm2
-#   sublime-text2
-#   virtualbox
-#   vlc
-#   skype
-#   transmission
-#   zoomus
-#   sequel-pro
-#   chromecast
-#   qlmarkdown
-#   qlstephen
-# )
 
 apps=(
   alfred
@@ -79,6 +52,9 @@ commandline_apps=(
   node
 )
 
+git_user=""
+git_email=""
+
 
 echo "Creating an SSH key for you..."
 ssh-keygen -t rsa
@@ -103,9 +79,6 @@ brew update
 
 echo "Installing Git..."
 brew install git
-
-git_user="daelsaid"
-git_email="daelsaid@stanford.edu"
 
 echo "Git config"
 
