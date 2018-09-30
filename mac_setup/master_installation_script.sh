@@ -12,5 +12,4 @@ bash app_installation_mac_settings_adjus.sh
 
 #import ISTAT settings + registration key
 #copy over atom dir with config settings
-rsync -avpu .atom .*bash*  ~/
-cp .viminfo .Xauthority .lesshst ~/
+rsync -avpu app_settings/.atom .*bash*  ~/
