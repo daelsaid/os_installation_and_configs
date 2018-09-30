@@ -1,0 +1,43 @@
+name: daelsaid_base_env
+channels:
+  - lparsons
+  - conda-forge
+  - defaults
+dependencies:
+  - backports=1.0=py_2
+  - backports.functools_lru_cache=1.5=py_1
+  - backports_abc=0.5=py_1
+  - brewer2mpl=1.3.2=py27_0
+  - bzip2=1.0.6=1
+  - certifi=2018.8.24=py27_1
+  - cycler=0.10.0=py_1
+  - freetype=2.9.1=h6debe1e_0
+  - functools32=3.2.3.2=py27_2
+  - futures=3.2.0=py27_0
+  - kiwisolver=1.0.1=py27h2d50403_2
+  - libpng=1.6.35=ha92aebf_0
+  - intel-openmp=2018.0.3=0
+  - matplotlib=2.2.3=py27h0e0179f_0
+  - mkl_fft=1.0.5=py27_0
+  - mkl_random=1.0.1=py27_0
+  - setuptools=40.0.0=py27_1
+  - pyparsing=2.2.0=py_1
+  - python=2.7.15=h43f7c74_0
+  - python-dateutil=2.7.3=py_0
+  - pytz=2018.5=py_0
+  - singledispatch=3.4.0.3=py27_0
+  - subprocess32=3.5.2=py27_0
+  - tornado=5.1=py27h470a237_1
+  - virtualenv=16.0.0=py27_0
+  - xz=5.2.4=h470a237_1
+  - distribute=0.6.45=py27_1
+  - intel-openmp=2018.0.3=0
+  - libgfortran=3.0.1=h93005f0_2
+  - libopenblas=0.2.20=hdc02c5d_7
+  - mkl=2018.0.3=1
+  - wget=1.19.5=hf30b1f0_0
+  - brewer2mpl=1.3.2=py27_0
+  - prettyplotlib=0.1.4=py27_0
+  - libopenblas=0.2.20=hdc02c5d_7
+  - mkl=2018.0.3=1
+prefix: /Users/daelsaid_mbpro15/miniconda/envs/

@@ -1,0 +1,39 @@
+"*":
+  Hydrogen:
+    debug: true
+    kernelNotifications: true
+    languageMappings: "{\"ipykernel\":\"bash\"}"
+    outputAreaDock: true
+  "atom-terminal-panel": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "atom-terminal-panel"
+    ]
+    projectHome: "/Users/lillyel-said/Documents/GitHub/"
+    reopenProjectMenuCount: 12
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    autoIndent: false
+    autoIndentOnPaste: false
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "388a56c2-b24d-46e3-8794-6843b9f71cf7"
+  "hydrogen-launcher":
+    console: "jupyter console --kernel bash"
+  "one-dark-ui":
+    fontSize: 11
+  teletype:
+    askBeforeJoiningPortalViaExternalApp: false
+  welcome:
+    showOnStartup: false
