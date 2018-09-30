@@ -5,8 +5,8 @@ icloud_path="`echo ${HOME}`/Library/Mobile\ Documents/com~apple~CloudDocs"
 
 alias icloud="cd ${HOME}/Library/Mobile\ Documents/com~apple~CloudDocs"
 
-alias home_server="ssh daelsaid@192.168.1.200"
-alias retired_mbpro="ssh dawlat_local@192.168.1.202"
+alias home_server="ssh daelsaid@###.###.#.200"
+alias retired_mbpro="ssh dawlat_local@###.###.#.202"
 
 # alias tunnel1="expect ~/Desktop/stanford/scripts/ssh_smurf_expect.sh"
 
