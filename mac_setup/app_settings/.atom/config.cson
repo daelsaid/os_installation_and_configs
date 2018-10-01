@@ -27,7 +27,7 @@
     softWrap: true
     tabLength: 4
   "exception-reporting":
-    userId: "388a56c2-b24d-46e3-8794-6843b9f71cf7"
+    userId: ""
   "hydrogen-launcher":
     console: "jupyter console --kernel bash"
   "one-dark-ui":
